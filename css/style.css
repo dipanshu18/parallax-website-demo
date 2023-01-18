@@ -68,3 +68,9 @@ div h1 {
 	background: linear-gradient(rgb(255, 149, 149), rgb(39, 39, 39));
 	height: 35%;
 }
+
+@media (min-width: 768px) {
+	.background {
+		background-attachment: scroll;
+	}
+}
